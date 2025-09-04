@@ -1,4 +1,4 @@
-# Assistente Pianificazione Viaggi - Progetto ICon 2024/25
+# Assistente Pianificazione Viaggi - Progetto
 
 ## Panoramica del Progetto
 
@@ -14,36 +14,36 @@ Sistema intelligente per la pianificazione di viaggi che integra quattro paradig
 ```
 ProgettoIcon2425/
 ├── data_collection/
-│   ├── __init__.py
-│   ├── transport_data.py           # Grafo 20 città italiane
-│   └── weather_integration.py      # OpenWeatherMap API
+│ ├── __init__.py
+│ ├── transport_data.py # Grafo 20 città italiane
+│ └── weather_integration.py # OpenWeatherMap API
 ├── search_algorithms/
-│   ├── __init__.py
-│   └── pathfinder.py              # A*, Floyd-Warshall, Dijkstra
+│ ├── __init__.py
+│ └── pathfinder.py # A*, Floyd-Warshall, Dijkstra
 ├── ml_models/
-│   ├── __init__.py
-│   ├── dataset_generator.py        # Generazione dati sintetici
-│   ├── predictor_models.py         # Predizione prezzi/tempi
-│   ├── preference_classifier.py    # Classificazione profili utente
-│   └── ml_pathfinder_integration.py # Integrazione ML
+│ ├── __init__.py
+│ ├── dataset_generator.py # Generazione dati sintetici
+│ ├── predictor_models.py # Predizione prezzi/tempi
+│ ├── preference_classifier.py # Classificazione profili utente
+│ └── ml_pathfinder_integration.py # Integrazione ML
 ├── bayesian_network/
-│   ├── __init__.py
-│   └── uncertainty_models.py       # Rete Bayesiana 6 nodi
+│ ├── __init__.py
+│ └── uncertainty_models.py # Rete Bayesiana 6 nodi
 ├── prolog_kb/
-│   ├── __init__.py
-│   ├── travel_rules.pl            # 200+ regole Prolog
-│   └── prolog_interface.py        # Python-Prolog bridge
+│ ├── __init__.py
+│ ├── travel_rules.pl # 200+ regole Prolog
+│ └── prolog_interface.py # Python-Prolog bridge
 ├── evaluation/
-│   ├── __init__.py
-│   └── comprehensive_evaluation.py # Framework valutazione ICon
-├── results/                       # Risultati sperimentali
-├── esempi_doc/                    # Template documentazione
-├── teoria_ICON/                   # Materiale teorico corso
-├── intelligent_travel_planner.py  # Sistema principale
-├── test_complete_system.py        # Test integrazione
-├── generate_final_results.py      # Generatore risultati
-├── context.md                     # Contesto e progressi
-└── Documentazione_Tecnica.md      # Documentazione tecnica completa
+│ ├── __init__.py
+│ └── comprehensive_evaluation.py # Framework valutazione ICon
+├── results/ # Risultati sperimentali
+├── esempi_doc/ # Template documentazione
+├── teoria_ICON/ # Materiale teorico corso
+├── intelligent_travel_planner.py # Sistema principale
+├── test_complete_system.py # Test integrazione
+├── generate_final_results.py # Generatore risultati
+├── context.md # Contesto e progressi
+└── Documentazione_Tecnica.md # Documentazione tecnica completa
 ```
 
 ## Componenti Principali
@@ -75,7 +75,7 @@ ProgettoIcon2425/
 
 ### Evaluation
 
-- **comprehensive_evaluation.py**: Framework valutazione ICon-compliant con K-fold CV
+- **comprehensive_evaluation.py**: Framework valutazione compliant con K-fold CV
 
 ## Installazione e Utilizzo
 
@@ -91,7 +91,7 @@ pip install networkx scikit-learn pgmpy numpy pandas
 # Demo completa del sistema
 python intelligent_travel_planner.py --demo
 
-# Test sistema completo  
+# Test sistema completo
 python test_complete_system.py
 
 # Generazione risultati ICon
@@ -100,11 +100,11 @@ python generate_final_results.py
 
 ## Documentazione Tecnica
 
-Per l'analisi dettagliata dell'implementazione, risultati sperimentali e valutazione ICon-compliant:
+Per l'analisi dettagliata dell'implementazione, risultati sperimentali e valutazione compliant:
 
 📋 **[Documentazione_Tecnica.md](Documentazione_Tecnica.md)**
 
-## Conformità ICon 2024/25
+## Conformità
 
 ✓ Integrazione multi-paradigma (Ricerca + ML + Bayesiana + Logica)
 ✓ Valutazione quantitativa con cross-validation K-fold

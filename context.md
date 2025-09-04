@@ -2,7 +2,7 @@
 
 ## Progetto Overview
 **Obiettivo**: Creare un sistema intelligente per pianificazione viaggi che integra:
-- Algoritmi di ricerca (A*, Floyd-Warshall, Dijkstra)  
+- Algoritmi di ricerca (A*, Floyd-Warshall, Dijkstra)
 - Machine Learning (regressione, classificazione, time series)
 - Reti Bayesiane per gestire incertezza
 - Base di conoscenza Prolog con regole logiche
@@ -14,7 +14,7 @@ ProgettoIcon2425/
 ├── context.md (questo file)
 ├── data_collection/ (step 1 - in corso)
 ├── search_algorithms/ (step 2)
-├── ml_models/ (step 3) 
+├── ml_models/ (step 3)
 ├── bayesian_network/ (step 4)
 ├── prolog_kb/ (step 5)
 └── evaluation/ (step 6)
@@ -30,7 +30,7 @@ ProgettoIcon2425/
 - ✅ **Machine Learning**: Dataset generation, price prediction, user classification
 - ✅ **Bayesian Network**: 6-node network per gestione incertezza
 - ✅ **Prolog KB**: 200+ regole travel + Python integration
-- ✅ **Evaluation Framework**: ICon-compliant con K-fold CV
+- ✅ **Evaluation Framework**: compliant con K-fold CV
 - ✅ **Sistema Completo**: Integrazione multi-paradigma funzionante
 - ✅ **Documentazione**: README ristrutturato + Documentazione_Tecnica estesa (50+ pagine)
 
@@ -42,10 +42,10 @@ ProgettoIcon2425/
 **Architettura Finale**:
 - **Data Layer**: CityGraph NetworkX + transport matrix + weather API
 - **Search Engine**: A*, Floyd-Warshall, Multi-Objective A*, Beam Search
-- **ML Pipeline**: Feature engineering, price prediction, user classification  
+- **ML Pipeline**: Feature engineering, price prediction, user classification
 - **Bayesian Network**: 6 nodi per uncertainty quantification
 - **Prolog KB**: 200+ regole con Python bridge
-- **Evaluation**: Framework ICon-compliant con cross-validation
+- **Evaluation**: Framework compliant con cross-validation
 
 **Tecnologie Utilizzate**:
 - Python + NetworkX per grafi e algoritmi
@@ -62,17 +62,17 @@ ProgettoIcon2425/
 - **Search Efficiency**: <20ms tempo medio risposta
 - **Integration Effectiveness**: +30% user satisfaction vs baseline
 
-### Conformità ICon 2024/25
-✅ **Multi-paradigm integration** efficace  
-✅ **Quantitative evaluation** con K-fold CV  
-✅ **Statistical significance** (p<0.05)  
-✅ **Original contribution** documentato  
-✅ **Technical documentation** completa  
+### Conformità
+✅ **Multi-paradigm integration** efficace
+✅ **Quantitative evaluation** con K-fold CV
+✅ **Statistical significance** (p<0.05)
+✅ **Original contribution** documentato
+✅ **Technical documentation** completa
 ✅ **Baseline comparisons** sistematici
 
 ---
 
-## OBIETTIVI E LIMITAZIONI PROGETTO ICon 2024/25
+## OBIETTIVI E LIMITAZIONI PROGETTO
 
 ### 🎯 **OBIETTIVO PRINCIPALE**
 Sviluppare un **sistema di pianificazione viaggi intelligente** che integri:
@@ -90,7 +90,7 @@ Sviluppare un **sistema di pianificazione viaggi intelligente** che integri:
 - **Knowledge Base complessa** con ragionamento oltre pattern matching
 - **Integrazione KB+ML** dimostrabile e funzionale
 
-#### ❌ **NON AMMISSIBILI** 
+#### ❌ **NON AMMISSIBILI**
 - Progetti scarsamente documentati o "allungati" con definizioni note
 - Esercizi su task standard senza valutazione/conclusioni significative
 - Single run su test set → solo matrice confusione (no statistiche)
@@ -126,20 +126,20 @@ Sviluppare un **sistema di pianificazione viaggi intelligente** che integri:
 ```
 | Algoritmo | Accuracy | Tempo (ms) | Costo €/km |
 |-----------|----------|------------|------------|
-| Dijkstra  | 0.72±0.04 | 12.3±1.2  | 0.15±0.02 |
-| A*        | 0.78±0.03 | 8.7±0.9   | 0.14±0.01 |
-| KB+ML     | 0.84±0.02 | 15.2±1.8  | 0.13±0.01 |
+| Dijkstra | 0.72±0.04 | 12.3±1.2 | 0.15±0.02 |
+| A* | 0.78±0.03 | 8.7±0.9 | 0.14±0.01 |
+| KB+ML | 0.84±0.02 | 15.2±1.8 | 0.13±0.01 |
 ```
 
 ### 🏗️ **ARCHITETTURA SISTEMA**
 
 #### **Moduli Implementati**
 1. **Data Layer**: `CityGraph` (NetworkX) + `TransportMatrix` + `WeatherAPI` ✅
-2. **Search Algorithms**: `AdvancedPathfinder` (A*, Floyd-Warshall, Multi-Obj, Beam) ✅  
+2. **Search Algorithms**: `AdvancedPathfinder` (A*, Floyd-Warshall, Multi-Obj, Beam) ✅
 3. **ML Models**: Price predictor (R²=0.851), User classifier (94.1% acc) ✅
 4. **Bayesian Network**: 6-node uncertainty model con inference engine ✅
 5. **Prolog KB**: 200+ regole travel con Python integration ✅
-6. **Evaluation**: Framework ICon-compliant con K-fold CV ✅
+6. **Evaluation**: Framework compliant con K-fold CV ✅
 
 ### 🎓 **COMPETENZE ICon DIMOSTRATE**
 
@@ -192,7 +192,6 @@ Sviluppare un **sistema di pianificazione viaggi intelligente** che integri:
 
 ## 📊 **RIEPILOGO FINALE PROGETTO**
 
-
 ### File Generati: 15 moduli funzionanti
 ```
 ProgettoIcon2425/
@@ -215,11 +214,11 @@ ProgettoIcon2425/
 
 ### Risultati Quantitativi Finali
 - **Sistema Ibrido Success Rate**: 98.0% ± 1.2%
-- **ML Classification Accuracy**: 94.1% ± 1.8% 
+- **ML Classification Accuracy**: 94.1% ± 1.8%
 - **Price Prediction R²**: 0.851 ± 0.029
 - **Response Time**: 17.24 ± 5.17 ms
 - **User Satisfaction**: 82.1% ± 4.1%
 - **Baseline Improvement**: +25% effectiveness
 
-### Status ICon 2024/25: COMPLIANT ✅
+### Status : COMPLIANT ✅
 **Progetto pronto per consegna e valutazione**
