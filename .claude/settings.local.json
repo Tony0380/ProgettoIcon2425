@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Read(C:\\Repository/**)",
+      "Read(C:\\Repository\\ICON/**)",
+      "Read(C:\\Repository\\ICON/**)",
+      "Read(C:\\Repository\\ICON/**)",
+      "Read(C:\\Repository\\ICON\\Spotipy/**)",
+      "Read(C:\\Repository\\Trip-Planner/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,3 @@
+System,Success Rate,Accuracy/Satisfaction,Inference Time (ms)
+Bayesian Network,0.960,0.880 ± 0.049,2.23 ± 0.45
+Prolog KB,0.920,0.806 ± 0.070,1.08 ± 0.24

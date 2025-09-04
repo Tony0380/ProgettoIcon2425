@@ -1,0 +1,6 @@
+Algorithm,Success Rate,Computation Time (ms),Optimality Ratio
+Dijkstra,1.000,5.05 ± 0.97,0.992 ± 0.012
+A*,1.000,3.14 ± 0.64,0.992 ± 0.010
+Multi-Objective A*,1.000,7.85 ± 1.28,0.982 ± 0.018
+Floyd-Warshall,1.000,1.08 ± 0.12,0.992 ± 0.012
+ML-Enhanced A*,0.950,11.48 ± 2.20,0.947 ± 0.020

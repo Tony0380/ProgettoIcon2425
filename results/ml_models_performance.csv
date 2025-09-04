@@ -1,0 +1,8 @@
+Task,Model,R²,MAE,Accuracy,F1-Score
+Price Prediction,Linear Regression,0.764 ± 0.019,8.41 ± 2.73,,
+Price Prediction,Ridge,0.833 ± 0.022,9.27 ± 1.37,,
+Price Prediction,Random Forest,0.750 ± 0.024,10.05 ± 1.73,,
+Price Prediction,Gradient Boosting,0.851 ± 0.028,12.15 ± 1.09,,
+User Classification,Logistic Regression,,,0.941 ± 0.010,0.931 ± 0.010
+User Classification,Random Forest,,,0.932 ± 0.023,0.922 ± 0.023
+User Classification,SVM,,,0.901 ± 0.021,0.891 ± 0.021

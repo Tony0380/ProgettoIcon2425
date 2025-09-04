@@ -1,0 +1,4 @@
+System,Success Rate,Route Quality,User Satisfaction,Computation Time (ms)
+Base A*,0.780,0.647 ± 0.052,0.595 ± 0.044,5.29 ± 1.38
+ML-Enhanced,0.850,0.776 ± 0.046,0.753 ± 0.040,12.35 ± 3.20
+Full Hybrid (KB+ML+Bayes),0.980,0.867 ± 0.049,0.827 ± 0.037,17.72 ± 5.04
